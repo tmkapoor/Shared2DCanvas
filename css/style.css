@@ -1,0 +1,47 @@
+body {
+	background: url(../img/debut_light.png);
+}
+	
+	
+canvas {
+	background: #fff;
+	display: block;
+	margin: auto;
+}
+
+#canvasHolder{
+	margin: 1em auto;
+	padding: 1em;
+	background: url(../img/noisy_net.png);
+	border-radius: 0.25em;
+	width: 80%;
+}
+
+#brushSize{
+	margin: 0.5em auto;
+}
+
+.toolbar{
+	margin: 20px auto;
+}
+
+.toolbar tr td{
+	padding: 0.25em 1em;
+	cursor: pointer;
+}
+
+.toolbar tr td:hover{
+	border-bottom: solid 2px black;
+}
+
+.swatches tr td{
+	padding: .5em;
+}
+
+.selected{
+	border: solid 2px black;
+}
+
+.side_1em{
+	margin: 1em auto;
+}
